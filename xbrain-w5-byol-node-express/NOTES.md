@@ -85,5 +85,4 @@ sam logs --stack-name byol-node-express --region us-west-2
 | B — @vendia/serverless-express | 200–400 ms | Thấp | Fork của A, tương đương |
 | C — Lambda Web Adapter | +200 ms so với native | Trung bình | Không cần sửa JS nhưng cần Layer + shell script |
 | D — Tự viết | Phụ thuộc implementation | Cao | Dễ lỗi, không nên dùng cho production |
-## Minh chứng API Gateway to Lambda
-![Cold start log](APIgatewaytoLamda.jpg)
+
